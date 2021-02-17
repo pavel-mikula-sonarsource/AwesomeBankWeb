@@ -1,0 +1,58 @@
+﻿body {
+    font-family: sans-serif;
+    background: linear-gradient(to bottom, #616e75, #eee) fixed no-repeat #fff;
+    color: #616e75;
+    padding: 20px;
+    margin: 0px;
+}
+
+a {
+    color: #0a314d;
+}
+
+div.header, div.body, div.footer {
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    width: 1000px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+    div.header a.logo {
+        display: block;
+        height: 70px;
+        background: transparent url('Logo.png') left top scroll no-repeat;
+        text-decoration: none;
+        margin: 10px 0px 10px 0px;
+    }
+
+    div.header ul {
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        background-color: #eee;
+        overflow: hidden;
+    }
+
+        div.header ul li {
+            margin: 0px;
+            padding: 0px;
+            float: left;
+        }
+
+            div.header ul li a {
+                color: #0a314d;
+                font-weight: bold;
+                padding: 10px 30px 10px 30px;
+                display: block;
+                text-decoration: none;
+            }
+
+                div.header ul li a:hover {
+                    background-color: #616e75;
+                }
+
+div.body {
+    padding-bottom: 200px;
+}
